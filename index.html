@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="title.home">PTI - الرئيسية</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<body>
+    <!-- زر تغيير اللغة -->
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="ar">عربي</button>
+        <button class="lang-btn" data-lang="en">English</button>
+    </div>
+
+    <!-- الشريط العلوي -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="شعار نادي PTI">
+                    <div class="logo-text">
+                        <h1>Peer Tutoring</h1>
+                        <p data-lang="nav.initiative">Initiative</p>
+                    </div>
+                </a>
+                
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="active" data-lang="nav.home">الرئيسية</a></li>
+                    <li><a href="about.html" data-lang="nav.about">من نحن</a></li>
+                    <li><a href="leadership.html" data-lang="nav.leadership">فريق القيادة</a></li>
+                    <li><a href="departments.html" data-lang="nav.departments">الأقسام</a></li>
+                    <li><a href="contact.html" data-lang="nav.contact">تواصل معنا</a></li>
+                    <li><a href="join.html" class="join-btn" data-lang="nav.join">انضم إلينا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- الهيرو -->
+    <section class="hero">
+        <div class="container">
+            <h1 data-lang="hero.title" >مرحباً بكم <span>PTI</span></h1>
+            <h2 data-lang="hero.subtitle">نادي التعليم بالأقران</h2>
+            <p data-lang="hero.description">نادي طلابي يهدف إلى تعزيز التعاون الأكاديمي وتبادل المعرفة بين الطلاب في بيئة داعمة ومحفزة للإبداع</p>
+            <div class="hero-buttons">
+                <a href="join.html" class="btn-primary" data-lang="hero.joinBtn">انضم إلينا</a>
+                <a href="about.html" class="btn-secondary" data-lang="hero.learnBtn">اعرف أكثر</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- المزايا -->
+    <section class="features">
+        <div class="container">
+            <h2 data-lang="features.title">لماذا تنضم إلى PTI؟</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 data-lang="features.1.title">تعليم تعاوني</h3>
+                    <p data-lang="features.1.desc">تعلم مع زملائك في بيئة داعمة</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 data-lang="features.2.title">مهارات عملية</h3>
+                    <p data-lang="features.2.desc">طور مهاراتك التقنية والمهنية</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 data-lang="features.3.title">شبكة علاقات</h3>
+                    <p data-lang="features.3.desc">تواصل مع متخصصين وزملاء</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-lang="features.4.title">تطوير شخصي</h3>
+                    <p data-lang="features.4.desc">انمي مهاراتك القيادية والإبداعية</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفعاليات -->
+    <section class="events">
+        <div class="container">
+            <h2 data-lang="events.title">الفعاليات القادمة</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month">مارس</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>سنوية نادي PTI </h3>
+                        <p>ورشة تدريبية لتعلم مهارات التدريس</p>
+                        <div class="event-meta">
+                            <span><i class="far fa-clock"></i> 10:00 AM</span>
+                            <span><i class="fas fa-map-marker-alt"></i> كود لاب </span>
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+    </section>
+
+    <!-- تواصل اجتماعي -->
+    <section class="social-section">
+        <div class="container">
+            <h2 data-lang="social.title">تابعنا على وسائل التواصل</h2>
+            <div class="social-icons">
+                <a href="https://x.com/ccsit_pti?s=21&t=ycknESRiwMk5be7GGVOdcQ" target="_blank" class="social-icon twitter">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/ccsit_pti?igsh=eGF0NXhkc2h2cW5y" target="_blank" class="social-icon instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://t.me/ccsitptiii" target="_blank" class="social-icon telegram">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@ccsit_pti?_r=1&_t=ZS-93NIPgqHj6r" target="_blank" class="social-icon tiktok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="شعار PTI">
+                    <div class="footer-text">
+                        <h3>Peer Tutoring Initiative</h3>
+                        <p data-lang="footer.college">كلية علوم الحاسب وتقنية المعلومات</p>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4 data-lang="footer.quickLinks">روابط سريعة</h4>
+                        <a href="index.html" data-lang="nav.home">الرئيسية</a>
+                        <a href="about.html" data-lang="nav.about">من نحن</a>
+                        <a href="leadership.html" data-lang="nav.leadership">فريق القيادة</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4 data-lang="footer.contact">تواصل معنا</h4>
+                        <a href="contact.html" data-lang="nav.contact">تواصل معنا</a>
+                        <a href="join.html" data-lang="nav.join">انضم إلينا</a>
+                        <a href="#" data-lang="footer.faq">الأسئلة الشائعة</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4 data-lang="footer.social">وسائل التواصل</h4>
+                        <a href="https://x.com/ccsit_pti" target="_blank" data-lang="social.twitter">تويتر</a>
+                        <a href="https://www.instagram.com/ccsit_pti" target="_blank" data-lang="social.instagram">إنستقرام</a>
+                        <a href="https://t.me/ccsitptiii" target="_blank" data-lang="social.telegram">تيليجرام</a>
+                        <a href="https://www.tiktok.com/@ccsit_pti" target="_blank" data-lang="social.tiktok">تيك توك</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-lang="footer.copyright">© 2026 نادي التعلم بالأقران PTI</p>
+                <p class="footer-rights">@جميع الحقوق محفوظة لنادي PTI بجامعة الملك فيصل</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

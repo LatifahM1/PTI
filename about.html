@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="title.about">من نحن - PTI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<body>
+    <!-- زر تغيير اللغة -->
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="ar">عربي</button>
+        <button class="lang-btn" data-lang="en">English</button>
+    </div>
+
+    <!-- الشريط العلوي -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="شعار نادي PTI">
+                    <div class="logo-text">
+                        <h1>Peer Tutoring</h1>
+                        <p data-lang="nav.initiative">Initiative</p>
+                    </div>
+                </a>
+                
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" data-lang="nav.home">الرئيسية</a></li>
+                    <li><a href="about.html" class="active" data-lang="nav.about">من نحن</a></li>
+                    <li><a href="leadership.html" data-lang="nav.leadership">فريق القيادة</a></li>
+                    <li><a href="departments.html" data-lang="nav.departments">الأقسام</a></li>
+                    <li><a href="contact.html" data-lang="nav.contact">تواصل معنا</a></li>
+                    <li><a href="join.html" class="join-btn" data-lang="nav.join">انضم إلينا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- صفحة من نحن -->
+    <section class="about-page">
+        <div class="container">
+            <!-- نبذة عن النادي -->
+            <div class="about-section">
+                <div class="section-header">
+                    <h1 data-lang="about.title">من نحن؟</h1>
+                </div>
+                
+                <div class="about-content">
+                    <p data-lang="about.description">نحن نادٍ طلابي يتبع كلية علوم الحاسب وتقنية المعلومات، نسعى إلى توفير بيئة جامعية محفزة وداعمة تعزز تبادل المعرفة بين الطلاب، وتسهم في تطوير مهاراتهم التقنية والعملية. يهدف نادينا إلى فتح مجالات أوسع للتعلم والتجربة، من خلال أنشطة وورش عمل متنوعة تساعد الطلاب على تنمية قدراتهم، ومشاركة خبراتهم، والعمل بروح الفريق الواحد. كما نطمح إلى أن تكون حلقة وصل بين المعرفة النظرية والتطبيق العملي، بما يهيئ الأعضاء لمستقبل مهني أكثر تميزاً وإبداعاً.</p>
+                </div>
+            </div>
+
+            <!-- الرؤية والرسالة -->
+            <div class="vision-mission-section">
+                <div class="section-header">
+                    <h1 data-lang="vision.title">رؤيتنا </h1>
+                </div>
+                
+                <div class="vision-mission-grid">
+                    <div class="vision-card">
+                        <div class="card-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3 data-lang="vision.visionTitle">رؤيتنا</h3>
+                        <p data-lang="vision.visionText">في نادي التعلم بالأقران، نهدف إلى تعزيز تجربة التعليم من خلال تبادل المعرفة والمهارات بين الطلاب، مما يمكن الطلاب من مواكبة أحدث التطورات في المجالات التقنية. نركز على تنمية مهاراتهم العملية والإبداعية، حيث يمتد تأثير التعليم بالأقران إلى ما هو أعمق من النطاق الأكاديمي، ليعدهم لمواجهة تحديات الحياة العملية والاجتماعية بكفاءة.</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- الأهداف -->
+            <div class="objectives-section">
+                <div class="section-header">
+                    <h1 data-lang="objectives.title">أهدافنا</h1>
+                </div>
+                
+                <div class="objectives-grid">
+                    <div class="objective-card">
+                        <div class="objective-number">1</div>
+                        <div class="objective-content">
+                            <h3 data-lang="objectives.1.title">تعزيز التعلم والتطوير الشخصي</h3>
+                            <p data-lang="objectives.1.description">دعم الطلاب لفهم المواد الدراسية بشكل أفضل من خلال الشروحات والدورات العملية.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="objective-card">
+                        <div class="objective-number">2</div>
+                        <div class="objective-content">
+                            <h3 data-lang="objectives.2.title">تنمية المهارات البحثية والإبداعية</h3>
+                            <p data-lang="objectives.2.description">تشجيع الطلاب على خوض الأبحاث والمشاريع بأساليب مبتكرة وجذابة.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="objective-card">
+                        <div class="objective-number">3</div>
+                        <div class="objective-content">
+                            <h3 data-lang="objectives.3.title">تطوير المهارات التقنية والإعلامية</h3>
+                            <p data-lang="objectives.3.description">تمكين الطلاب من استخدام أدوات المونتاج والتصميم والتسويق الرقمي بصورة عملية.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="objective-card">
+                        <div class="objective-number">4</div>
+                        <div class="objective-content">
+                            <h3 data-lang="objectives.4.title">تعزيز التنظيم والعمل الجماعي</h3>
+                            <p data-lang="objectives.4.description">تدريب الطلاب على التخطيط والتنظيم وإدارة الفعاليات بالتعاون مع مختلف أعضاء النادي.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="objective-card">
+                        <div class="objective-number">5</div>
+                        <div class="objective-content">
+                            <h3 data-lang="objectives.5.title">زيادة التفاعل والمشاركة</h3>
+                            <p data-lang="objectives.5.description">خلق بيئة محفزة تسهم في مشاركة فعّالة بالأنشطة والورش المتنوعة.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="objective-card">
+                        <div class="objective-number">6</div>
+                        <div class="objective-content">
+                            <h3 data-lang="objectives.6.title">بناء شبكة علاقات</h3>
+                            <p data-lang="objectives.6.description">إتاحة فرص للتواصل مع الزملاء وأعضاء النادي والمختصين في مختلف المجالات.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- شعار النادي -->
+            <div class="logo-concept-section">
+                <div class="section-header">
+                    <h1 data-lang="logo.title">شعارنا</h1>
+                </div>
+                
+                <div class="logo-concept">
+                    <div class="logo-display">
+                        <img src="images/logo.png" alt="شعار نادي PTI" class="logo-image">
+                    </div>
+                    
+                    <div class="logo-description">
+                        <p data-lang="logo.description">شعار نادي (PTI)
+يجسد هوية النادي وأهدافه. الحروف المتشابكة ترمز للتعاون والعمل الجماعي بين الطلاب، وتوضح أن قوة النادي في وحدة أفراده وتكاملهم. رمز المخ يعبر عن المعرفة والإبداع، متوافقاً مع هدف النادي في تطوير المهارات الأكاديمية والبحثية والإبداعية في مجالات التسويق والتصميم والإنتاج. أما الخطوط الإلكترونية داخل الحروف فتعكس الهوية التقنية لطلاب كلية الحاسب، وربط التعلم بالابتكار والتطور. ليكون الشعار انعكاساً حقيقياً لبيئة طلابية متعاونة، مبتكرة، ومنظمة، تسعى لبناء شبكة علاقات مميزة وزيادة التفاعل في الفعاليات.  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="شعار PTI">
+                    <div class="footer-text">
+                        <h3>Peer Tutoring Initiative</h3>
+                        <p data-lang="footer.college">كلية علوم الحاسب وتقنية المعلومات</p>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4 data-lang="footer.quickLinks">روابط سريعة</h4>
+                        <a href="index.html" data-lang="nav.home">الرئيسية</a>
+                        <a href="leadership.html" data-lang="nav.leadership">فريق القيادة</a>
+                        <a href="departments.html" data-lang="nav.departments">الأقسام</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4 data-lang="footer.contact">تواصل معنا</h4>
+                        <a href="contact.html" data-lang="nav.contact">تواصل معنا</a>
+                        <a href="join.html" data-lang="nav.join">انضم إلينا</a>
+                        <a href="#" data-lang="footer.faq">الأسئلة الشائعة</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4 data-lang="footer.social">وسائل التواصل</h4>
+                        <a href="https://x.com/ccsit_pti" target="_blank" data-lang="social.twitter">تويتر</a>
+                        <a href="https://www.instagram.com/ccsit_pti" target="_blank" data-lang="social.instagram">إنستقرام</a>
+                        <a href="https://t.me/ccsitptiii" target="_blank" data-lang="social.telegram">تيليجرام</a>
+                        <a href="https://www.tiktok.com/@ccsit_pti" target="_blank" data-lang="social.tiktok">تيك توك</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-lang="footer.copyright">© 2026 نادي التعليم بالأقران PTI</p>
+                <p class="footer-rights">@جميع الحقوق محفوظة لنادي PTI بجامعة الملك فيصل</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

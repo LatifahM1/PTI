@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="title.leadership">فريق القيادة - PTI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<body>
+    <!-- زر تغيير اللغة -->
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="ar">عربي</button>
+        <button class="lang-btn" data-lang="en">English</button>
+    </div>
+
+    <!-- الشريط العلوي -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="شعار نادي PTI">
+                    <div class="logo-text">
+                        <h1>Peer Tutoring</h1>
+                        <p data-lang="nav.initiative">Initiative</p>
+                    </div>
+                </a>
+                
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" data-lang="nav.home">الرئيسية</a></li>
+                    <li><a href="about.html" data-lang="nav.about">من نحن</a></li>
+                    <li><a href="leadership.html" class="active" data-lang="nav.leadership">فريق القيادة</a></li>
+                    <li><a href="departments.html" data-lang="nav.departments">الأقسام</a></li>
+                    <li><a href="contact.html" data-lang="nav.contact">تواصل معنا</a></li>
+                    <li><a href="join.html" class="join-btn" data-lang="nav.join">انضم إلينا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- صفحة فريق القيادة -->
+    <section class="leadership-page">
+        <div class="container">
+            <div class="page-header">
+                <h1 data-lang="leadership.title">فريق قيادة PTI</h1>
+            </div>
+
+            <!-- القيادة العليا -->
+            <div class="leadership-section executive-section">
+                <h2 data-lang="leadership.topLeadership">القيادة العليا</h2>
+                <div class="leadership-grid executive-grid">
+                    <!-- الرئيس -->
+                    <div class="leader-card main-leader">
+                        <div class="leader-badge">LEADER</div>
+                        <div class="leader-image">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>جواهر الهقيش</h3>
+                            <p class="leader-role-en">JAWAHER ALHOQISH</p>
+                            <p class="leader-role" data-lang="leadership.leader.role">قائدة النادي</p>
+            
+                        </div>
+                    </div>
+                    
+                    <!-- المستشارة -->
+                    <div class="leader-card consultant-leader">
+                        <div class="leader-badge">CONSULTANT</div>
+                        <div class="leader-image">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>لطيفه الماجد</h3>
+                            <p class="leader-role-en">LATIFAH ALMAJED</p>
+                            <p class="leader-role" data-lang="leadership.consultant.role">مستشارة النادي</p>
+ 
+                        </div>
+                    </div>
+                    
+                    <!-- نائب الرئيس -->
+                    <div class="leader-card co-leader">
+                        <div class="leader-badge">CO-LEADER</div>
+                        <div class="leader-image">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <div class="leader-info">
+                            <h3>طلال اليحيى</h3>
+                            <p class="leader-role-en">TALAL ALYAHYA</p>
+                            <p class="leader-role" data-lang="leadership.coleader.role">نائب القائدة</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- اللجان الرئيسية -->
+            <div class="committees-section">
+                <h2>اللجان الرئيسية</h2>
+                <div class="committees-grid">
+                    <!-- لجنة الإعلام -->
+                    <div class="committee-overview">
+                        <div class="committee-header marketing">
+                            <div class="committee-icon">
+                                <i class="fas fa-bullhorn"></i>
+                            </div>
+                            <div class="committee-title">
+                                <h3>لجنة الإعلام والتسويق</h3>
+                                <p class="committee-en">MARKETING COMMITTEE</p>
+                            </div>
+                        </div>
+                        <div class="committee-leaders">
+                            <div class="leader-card-small">
+                                <div class="leader-title">HEAD</div>
+                                <h4>مريم النعيم</h4>
+                                <p class="leader-en">MARYAM ALNAIM </p>
+                                <p>قائدة اللجنة</p>
+                            </div>
+                            <div class="leader-card-small">
+                                <div class="leader-title">CO-HEAD</div>
+                                <h4>سعد الشرفاء</h4>
+                                <p class="leader-en">HADI ALMUBARAK</p>
+                                <p>نائب قائدة اللجنة</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- لجنة التعليم والأبحاث -->
+                    <div class="committee-overview">
+                        <div class="committee-header research">
+                            <div class="committee-icon">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <div class="committee-title">
+                                <h3>لجنة المعلمين والأبحاث</h3>
+                                <p class="committee-en">RESEARCH & TEACHING COMMITTEE</p>
+                            </div>
+                        </div>
+                        <div class="committee-leaders">
+                            <div class="leader-card-small">
+                                <div class="leader-title">HEAD</div>
+                                <h4>شهد الشمري</h4>
+                                <p class="leader-en">SHAHAD ALSHAMMARY </p>
+                                <p>قائدة اللجنة</p>
+                            </div>
+                            <div class="leader-card-small">
+                                <div class="leader-title">CO-HEAD</div>
+                                <h4>هادي المبارك</h4>
+                                <p class="leader-en">HADI ALMUBARAK</p>
+                                <p>نائب قائدة اللجنة</p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <!-- لجنة التخطيط والتنظيم -->
+                     <div class="committee-overview">
+                        <div class="committee-header research">
+                            <div class="committee-icon">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <div class="committee-title">
+                                <h3>لجنة التخطيط والتنظيم</h3>
+                                <p class="committee-en">PLANNING & ORGANIZATION COMMITTEE</p>
+                            </div>
+                        </div>
+                        <div class="committee-leaders">
+                            <div class="leader-card-small">
+                                <div class="leader-title">HEAD</div>
+                                <h4>ياسمين الموسى</h4>
+                                <p class="leader-en">YASMEEN ALMOUSA</p>
+                                <p>قائدة اللجنة</p>
+                            </div>
+                            <div class="leader-card-small">
+                                <div class="leader-title">CO-HEAD</div>
+                                <h4>رؤى الفضيخ</h4>
+                                <p class="leader-en">ROAA ALFADIKAH</p>
+                                <p>نائب قائدة اللجنة</p>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <!-- لجنة التصاميم -->
+                    <div class="committee-overview">
+                        <div class="committee-header design">
+                            <div class="committee-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="committee-title">
+                                <h3>لجنة التصاميم</h3>
+                                <p class="committee-en">DESIGNING COMMITTEE</p>
+                            </div>
+                        </div>
+                        <div class="committee-leaders">
+                            <div class="leader-card-small">
+                                <div class="leader-title">HEAD</div>
+                                <h4>ساره الفلاح</h4>
+                                <p class="leader-en">SARAH ALFALAH</p>
+                                <p>قائدة اللجنة</p>
+                            </div>
+                            <div class="leader-card-small">
+                                <div class="leader-title">CO-HEAD</div>
+                                <h4>الجوهرة الملا</h4>
+                                <p class="leader-en">ALJAWHARAH AL-MULLA</p>
+                                <p>نائبة قائدة اللجنة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="شعار PTI">
+                    <div class="footer-text">
+                        <h3>Peer Tutoring Initiative</h3>
+                        <p data-lang="footer.college">كلية علوم الحاسب وتقنية المعلومات</p>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4 data-lang="footer.quickLinks">روابط سريعة</h4>
+                        <a href="index.html" data-lang="nav.home">الرئيسية</a>
+                        <a href="about.html" data-lang="nav.about">من نحن</a>
+                        <a href="departments.html" data-lang="nav.departments">الأقسام</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4 data-lang="footer.contact">تواصل معنا</h4>
+                        <a href="contact.html" data-lang="nav.contact">تواصل معنا</a>
+                        <a href="join.html" data-lang="nav.join">انضم إلينا</a>
+                        <a href="#" data-lang="footer.faq">الأسئلة الشائعة</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4 data-lang="footer.social">وسائل التواصل</h4>
+                        <a href="https://x.com/ccsit_pti" target="_blank" data-lang="social.twitter">تويتر</a>
+                        <a href="https://www.instagram.com/ccsit_pti" target="_blank" data-lang="social.instagram">إنستقرام</a>
+                        <a href="https://t.me/ccsitptiii" target="_blank" data-lang="social.telegram">تيليجرام</a>
+                        <a href="https://www.tiktok.com/@ccsit_pti" target="_blank" data-lang="social.tiktok">تيك توك</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-lang="footer.copyright">© 2026 نادي التعليم بالأقران PTI</p>
+                <p class="footer-rights">@جميع الحقوق محفوظة لنادي PTI بجامعة الملك فيصل</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
